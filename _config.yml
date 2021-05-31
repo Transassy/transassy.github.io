@@ -25,7 +25,7 @@ facebook_link: https://www.facebook.com/transassy
 
 # Footer
 footer_left: "Tema di <a href=\"https://github.com/jacobtomlinson/carte-noire\">Jacob Tomlinson</a>"
-footer_right: "Codice su <a href=\"https://github.com/Transassy/transassy.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
+footer_right: "Codice su <a href=\"https://github.com/Transassy/transassy.github.io\">Github</a> &nbsp;<i class=\"fab fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
