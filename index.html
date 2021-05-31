@@ -25,19 +25,24 @@ make-smaller-titles: true
 
             <div class="articles">
 
-              <h2>Latest Articles</h2>
+              <h2>Articoli recenti</h2>
 
               <ul>
                   {% for post in site.posts limit: site.post_limit %}
+                  {% assign months = "gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre" | split: "|" %}
+                  {% assign m = post.date | date: "%-m" | minus: 1 %}
+                  {% assign day = post.date | date: "%-d" %}
+                  {% assign month = months[m] %}
+                  {% assign year = post.date | date: "%Y" %}
 
                       <li>
                           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                          <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+                          <small class="hidden-xs">{{ day }} {{ month }} {{ year }}</small>
                       </li>
 
                   {% endfor %}
                   <li>
-                      <small><i><a href="{{ site.baseurl }}/posts/">more...</a></i></small>
+                      <small><i><a href="{{ site.baseurl }}/posts/">altro...</a></i></small>
                   </li>
               </ul>
 

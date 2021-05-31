@@ -8,6 +8,11 @@ layout: default
   {% assign minutes = content | number_of_words | divided_by: 180 %}
   {% if minutes == 0 %}{% assign minutes = 1 %}{% endif %}
 {% endif %}
+{% assign months = "gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre" | split: "|" %}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+{% assign day = page.date | date: "%-d" %}
+{% assign month = months[m] %}
+{% assign year = page.date | date: "%Y" %}
 
 <div class="container-fluid single">
   <div class="row">
@@ -27,8 +32,9 @@ layout: default
 
       <div class="author">
         <small><i>
+          pubblicato
           {% if page.author %}
-          by
+          da
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
@@ -41,21 +47,21 @@ layout: default
             {% endif %}
           </span>
           {% endif %}
-          on <span itemprop="datePublished" content="2014-08-28">{{ page.date | date: "%B %-d, %Y" }}</span>
-          {% if page.categories != empty %} under {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
+          il <span itemprop="datePublished" content="2014-08-28">{{ day }} {{ month }} {{ year }}</span>
+          {% if page.categories != empty %} in {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
 
       <div class="read-time">
         <small>
-          {{ minutes }} minute read
+          durata lettura: {{ minutes }} minuto/i
         </small>
       </div>
 
       <div class="content-panel content">
 
         {% if page.series %}
-          This post is part of the series '{{ page.series }}':
+          Questo articolo fa parte della serie '{{ page.series }}':
           <ol class="series">
           {% for apost in site.posts reversed %}
             {% if page.series == apost.series %}
@@ -80,7 +86,7 @@ layout: default
 
         {% if page.series %}
           {% if seriesnext %}
-            <i>Next post in the series:</i> <a href="{{ seriesnext.url }}">{{ seriesnext.title }}</a>
+            <i>Post successivo della serie:</i> <a href="{{ seriesnext.url }}">{{ seriesnext.title }}</a>
           {% endif %}
         {% endif %}
 
@@ -132,7 +138,7 @@ layout: default
       <div class="content-panel related clearfix">
         {% for post in site.related_posts limit:1 %}
         <div class="related-header">
-          <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+          <a href="{{ site.baseurl }}{{ post.url }}">Articoli correlati</a>
         </div>
           <div class="title">
             <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
@@ -143,24 +149,32 @@ layout: default
              {% else %}
               {{ post.excerpt | strip_html | truncatewords:30 }}
              {% endif %}
-            <a href="{{ site.baseurl }}{{ post.url }}">Continue Reading</a>
+            <a href="{{ site.baseurl }}{{ post.url }}">Continua a leggere</a>
           </div>
         {% endfor %}
         <hr />
         <div class="previous previous-next">
           {% if page.previous %}
+          {% assign mprev = page.previous.date | date: "%-m" | minus: 1 %}
+          {% assign dayprev = page.previous.date | date: "%-d" %}
+          {% assign monthprev = months[m] %}
+          {% assign yearprev = page.previous.date | date: "%Y" %}
           <p>
             <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
           </p>
-          <p class="date">Published {{ page.previous.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Pubblicato il {{ dayprev }} {{ monthprev }} {{ yearprev }}</p>
           {% endif %}
         </div>
         <div class="next previous-next">
           {% if page.next %}
+          {% assign mnext = page.next.date | date: "%-m" | minus: 1 %}
+          {% assign daynext = page.next.date | date: "%-d" %}
+          {% assign monthnext = months[m] %}
+          {% assign yearnext = page.next.date | date: "%Y" %}
           <p>
             <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a>
           </p>
-          <p class="date">Published {{ page.next.date | date: "%B %-d, %Y" }}</p>
+          <p class="date">Pubblicato il {{ daynext }} {{ monthnext }} {{ yearnext }}</p>
           {% endif %}
         </div>
       </div>

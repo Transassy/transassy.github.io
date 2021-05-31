@@ -8,15 +8,15 @@ make-smaller-titles: true
   <div class="row index all-posts">
 
     <h1 class="header author-header">{{ site.author_name }}</h1>
-    <h2 class="header" itemprop="headline">All posts</h2>
-    <h2 class="header categories" itemprop="headline"><small>grouped by
+    <h2 class="header" itemprop="headline">Tutti gli articoli</h2>
+    <h2 class="header categories" itemprop="headline"><small>ordinati per
 
       <div class="dropdown btn-group">
-        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Years
+        <button class="btn btn-categories dropdown-toggle btn-xs" type="button" data-toggle="dropdown">Anno
           <span class="caret"></span>
         </button>
         <ul class="dropdown-menu">
-          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categories</a></li>
+          <li><a href="{{ site.baseurl }}/posts-by-categories/">Categoria</a></li>
         </ul>
       </div>
 
@@ -31,10 +31,15 @@ make-smaller-titles: true
         <h2 id="{{ this_year }}-ref">{{ this_year }}</h2>
         <ul>
       {% endif %}
+      {% assign months = "gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|ottobre|novembre|dicembre" | split: "|" %}
+      {% assign m = post.date | date: "%-m" | minus: 1 %}
+      {% assign day = post.date | date: "%-d" %}
+      {% assign month = months[m] %}
+      {% assign year = post.date | date: "%Y" %}
 
           <li>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <small class="hidden-xs">{{ post.date | date: "%B %-d, %Y" }}</small>
+            <small class="hidden-xs">{{ day }} {{ month }} {{ year }}</small>
           </li>
       {% if forloop.last %}
         </ul>
