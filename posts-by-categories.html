@@ -22,7 +22,8 @@ make-smaller-titles: true
 
     </small></h2>
       {% for category in site.categories %}
-      <div class="col-md-12 content-panel articles">
+      <div class="col-md-12 content-panel">
+        <div class="articles">
         <h2 id="{{ category | first }}-ref">{{ category | first }}</h2>
         <ul>
           {% for posts in category %}
@@ -43,6 +44,7 @@ make-smaller-titles: true
           {% endfor %}
 
         </ul>
+      </div>
       </div>
       {% endfor %}
 
