@@ -412,10 +412,11 @@ ul {
 	}
 
 	#search-input {
+		display: block;
 		position:relative;
-		width: 100%;
+		width: calc(100% - 2px);
 		padding:6px 15px 6px 30px;
-		margin: 2px;
+		margin: 2px auto;
 		margin-top: 50px;
 
 		color:$dark;
@@ -800,7 +801,6 @@ ul {
 }
 
 .search-hr {
-	width: 700px;
 	border-color: $light-medium;
 }
 

@@ -32,22 +32,19 @@ layout: default
 
       <div class="author">
         <small><i>
-          pubblicato
           {% if page.author %}
-          da
+          di
           <span itemprop="author">
             {% if site.google_plus_link %}
               <a rel="author" href="{{ site.google_plus_link }}">
             {% endif %}
             <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ page.author }}</span>
-            </span>
-            {% if site.google_plus_link %}
-              </a>
-            {% endif %}
-          </span>
+              <span itemprop="name">{{ page.author }}</span><!--
+         --></span>{% if site.google_plus_link %}<!--
+           --></a>{% endif %}<!--            
+       --></span>,
           {% endif %}
-          il <span itemprop="datePublished" content="2014-08-28">{{ day }} {{ month }} {{ year }}</span>
+          <span itemprop="datePublished" content="2014-08-28">{{ day }} {{ month }} {{ year }}</span>
           {% if page.categories != empty %} in {% for category in page.categories limit:1 %}{{ category }}{% endfor %}{% endif %}
         </i></small>
       </div>
