@@ -42,7 +42,7 @@ layout: default
         fontSizeOfTitle = startingFontSize;
         title.css("font-size", fontSizeOfTitle);
 
-        while (title.width() > divWidth)
+        while (title.width() >= divWidth)
           title.css("font-size", fontSizeOfTitle -= 0.5);
 
       }
