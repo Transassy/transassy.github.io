@@ -21,7 +21,7 @@ Nella fretta di partire per l'Universiade tenutasi nel 1985 a Kobe, in Giappone,
 "Bisognava dimostrare di essere una donna per poter gareggiare", spiega. Senza di esso, si era dovuta sottoporre a un semplice test biologico.
 Ma ne era uscito fuori un risultato inaspettato, e così aveva dovuto affrontare un esame più impegnativo - esame che avrebbe richiesto mesi per avere un risultato. Il suo medico di squadra le aveva consigliato di fingere di aver avuto un infortunio alla caviglia per non destare sospetti su perché non stesse gareggiando, quindi lei sedeva sugli spalti con il piede fasciato e assisteva, chiedendosi cosa significasse il risultato del test.
 
-Lo sport ha un lungo trascorso per quanto riguarda la sorveglianza su chi vada considerata donna. I test obbligatori a tappeto di "verifica del sesso" sono stati istituiti agli eventi sportivi degli anni 60 (vedi "La sorveglianza del sesso") - un'epoca in cui la partecipazione delle donne allo sport era in crescita e molte stavano ottenendo miglioramenti nelle prestazioni. Le preoccupazioni sul fatto che gli uomini potessero fingersi donne costringevano le persone che gareggiavano negli eventi femminili a sottoporsi a un esame visivo e fisico umiliante effettuato da un gruppo di medici.
+Lo sport ha un lungo trascorso per quanto riguarda la sorveglianza su chi vada considerata donna. I test obbligatori a tappeto di "verifica del sesso" sono stati istituiti agli eventi sportivi degli anni 60 (vedi ["La sorveglianza del sesso"](#inserto)) - un'epoca in cui la partecipazione delle donne allo sport era in crescita e molte stavano ottenendo miglioramenti nelle prestazioni. Le preoccupazioni sul fatto che gli uomini potessero fingersi donne costringevano le persone che gareggiavano negli eventi femminili a sottoporsi a un esame visivo e fisico umiliante effettuato da un gruppo di medici.
 
 Nel 1968, Il Comitato Olimpico Internazionale (IOC) ha adottato un esame diverso per stabilire il sesso, basato sui cromosomi. Di solito le persone hanno 46 cromosomi divisi in 23 coppie. Una di queste coppie è diversa in base al sesso biologico dell'individuo: le donne hanno di solito due cromosomi X, mentre gli uomini hanno una X e una Y. Errori genetici, mutazioni e interazioni tra il DNA e gli ormoni possono, tuttavia, portare a tutta una serie di eccezioni a questa configurazione. Nonostante i cromosomi di un individuo possano indicare un sesso, la sua anatomia può suggerirne un altro. Ciò è noto come intersessualità o differenze nello sviluppo sessuale (DSD).
 
@@ -29,7 +29,7 @@ Il test cromosomico richiesto dall'IOC richiedeva di prendere alcune cellule dal
 
 ---
 
-### La sorveglianza del sesso: la storia dei controlli del sesso nello sport femminile
+### La sorveglianza del sesso: la storia dei controlli del sesso nello sport femminile {#inserto}
 1936
 : La velocista statunitense Helen Stephens si sottopone a un esame per verificare il proprio sesso dopo che i giornalisti mettono in dubbio la sua vittoria nei 100 metri ai Giochi Olimpici di Berlino. I risultati del non meglio specificato esame, che conferma che è una donna, vengono annunciati pubblicamente.
 
