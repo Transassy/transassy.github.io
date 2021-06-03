@@ -15,7 +15,7 @@ tags:
 
 ![Immagine di apertura](https://media.nature.com/w1248/magazine-assets/d41586-021-00819-0/d41586-021-00819-0_19015606.jpg)
 
-### Originale di *Julianna Photopoulos* su [Nature][1]
+### Originale di *Julianna Photopoulos* su [Nature][1].
 \
 Nella fretta di partire per l'Universiade tenutasi nel 1985 a Kobe, in Giappone, l'ostacolista spagnola José Martínez-Patiño si era dimenticata di mettere nella borsa il "certificato di femminilità" preparatole dal proprio medico.
 "Bisognava dimostrare di essere una donna per poter gareggiare", spiega. Senza di esso, si era dovuta sottoporre a un semplice test biologico.
@@ -37,13 +37,13 @@ Il test cromosomico richiesto dall'IOC richiedeva di prendere alcune cellule dal
 : L'Associazione Internazionale delle Federazioni di Atletica (IAAF) richiede che si abbia un certificato medico per dimostrare di essere idonee a partecipare agli eventi per donne. Il Comitato Olimpico Internazionale (IOC) adotta la stessa regola per i giochi del 1948.
 
 1966
-: Le donne vengono sottoposte nude a ispezioni da un gruppo di medici ai Campionati Europei di Atletica, e devono fare esami ginecologici ai Commonwealth Games. Gli esami sono impopolari, e alcune atlete scelgono di non partecipare.
+: Le donne vengono sottoposte nude a ispezioni da un gruppo di medici ai Campionati Europei di Atletica, e devono effettuare esami ginecologici ai Commonwealth Games. Gli esami sono impopolari, e alcune atlete scelgono di non partecipare.
 
 1967
 : Gli esami cromosomici vengono provati alla Coppa Europea. La velocista polacca Ewa Kłobukowska è la prima ad essere squalificata. L'IOC adotta i test per le Olimpiadi Invernali del 1968, dalle quali viene squalificato lo sciatore austriaco Erik Schinegger (che all'epoca viveva come donna).
 
 1985
-: Viene impedito di competere all'ostacolista spagnola María José Martίnez-Patiño in seguito a un test cromosomico che determina che abbia cromosomi 46,XY. Lei si oppone sostenendo di non avere alcun vantaggio a causa della sindrome da insensibilità agli androgeni. Il divieto viene ritirato nel 1988.
+: Viene impedito di competere all'ostacolista spagnola María José Martίnez-Patiño in seguito a un test che determina un assetto cromosomico 46,XY. Lei si oppone sostenendo di non avere alcun vantaggio a causa della sindrome da insensibilità agli androgeni. Il divieto viene ritirato nel 1988.
 
 1992
 : La IAAF non esegue più esami del sesso a tappeto, e indaga sulle atlete femmine solo se vengono fatte domande. L'IOC, tuttavia, introduce un esame per tutte le donne, basato sul gene SRY. Rimane necessario fino ai Giochi Olimpici del 2000 a Sydney, in Australia.
@@ -58,10 +58,10 @@ Il test cromosomico richiesto dall'IOC richiedeva di prendere alcune cellule dal
 : Le autorità indiane vietano alla velocista Dutee Chand di competere, a causa dei suoi alti livelli di testosterone. Lei fa ricorso al Tribunale Arbitrale dello Sport (CAS), che prende una decisione in suo favore nel 2015. Il regolamento dell'IAAF viene sospeso, e Chand può gareggiare senza restrizioni.
 
 2018
-: L'IAAF annuncia un regolamento che pone un limite di 5 nanomoli per litro per le persone che competono agli eventi femminili con distanze dai 400 metri a un miglio. La mezzofondista Semenya fa ricorso al CAS, che sospende il regolamento in attesa dell'udienza definitiva.
+: L'IAAF annuncia un regolamento che pone un limite di 5 nanomoli per litro alle persone che competono negli eventi femminili con distanze tra i 400 metri e un miglio. La mezzofondista Semenya fa ricorso al CAS, che sospende il regolamento in attesa dell'udienza definitiva.
 
 2019
-: Il CAS dà torto a Semenya. L'anno successivo, perde di nuovo in un tribunale svizzero. Semenya fa ricorso alla Corte Europea dei Diritti Umani e annuncia che gareggerà nei 200 metri (non soggetti a restrizioni) alle Olimpiadi di Tokyo 2021.
+: Il CAS dà torto a Semenya. L'anno successivo perde di nuovo in un tribunale svizzero. Semenya fa ricorso alla Corte Europea dei Diritti dell'Uomo e annuncia che gareggerà nei 200 metri (non soggetti a restrizioni) alle Olimpiadi di Tokyo 2021.
 
 ---
 
@@ -107,7 +107,7 @@ Lo studio, tuttavia, ha ricevuto critiche. "È profondamente errato," sostiene R
 
 Il regolamento del 2018 è stato sotto accusa anche per essere fin troppo discriminante. Karkazis spiega che le regole hanno come eccezioni esplicite le donne con livelli alti di testosterone causati dalla sindrome dell'ovaio policistico - la causa più comune di testosterone alto - e, in seguito a un ricorso in tribunale del 2019, le donne con l'iperplasia surrenale congenita. Ad oggi, si rivolgono solo a coloro che hanno un cromosoma Y e sono suscettibili agli effetti del testosterone. Queste persone "hanno un vantaggio fisico innato", afferma Handelsman.
 
-Inoltre, le regole sono valide soltanto con lз corridorз che competono a livello internazionale negli eventi con distanze dai 400 metri a un miglio. "È bizzarro," dice Ross Tucker, uno scienziato dello sport di Città del Capo, in Sud Africa. "Unə atleta potrebbe rispettare la legge il sabato ma non la domenica solo perché sta partecipando a un evento diverso."
+Inoltre, le regole sono valide soltanto con lз corridorз che competono a livello internazionale negli eventi con distanze tra i 400 metri e un miglio. "È bizzarro," dice Ross Tucker, uno scienziato dello sport di Città del Capo, in Sud Africa. "Unə atleta potrebbe rispettare la legge il sabato ma non la domenica solo perché sta partecipando a un evento diverso."
 
 Karkazis inoltre fa notare che lo studio del 2017[^6] aveva mostrato prestazioni diverse in base al testosterone in 5 su 21 degli eventi considerati, inclusi il lancio del martello e il salto con l'asta. Questi due eventi però sono stati esclusi dal regolamento definitivo, mentre i 1.500 metri, per i quali non è stata ossservata una correlazione, sono stati inclusi.
 
