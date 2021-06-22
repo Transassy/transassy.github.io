@@ -3,7 +3,7 @@ layout:     post
 title:      Perché abbiamo tuttз bisogno di uno svincolo dal genere
 date:       2021-04-18 08:47:00
 author:     Transassy
-summary:    E non dovremmo litigare su quale sia meglio	
+summary:    E non dovremmo litigare su quale sia meglio
 categories: traduzioni
 thumbnail:  venus
 tags:
